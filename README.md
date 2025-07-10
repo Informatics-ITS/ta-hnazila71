@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: [Yusuf Hasan Nazila]  
+**NRP**: [5025211225]  
+**Judul TA**: [PENGEMBANGAN MODUL PAYROLL: INTEGRASI FINGERPRINT DAN OTOMASI PENGHITUNGAN GAJI BERBASIS JABATAN DENGAN KINDERFIN]  
+**Dosen Pembimbing**: [Ir. Adhatus Solichah Ahmadiyah, S.Kom., M.Sc.]  
+**Dosen Ko-pembimbing**: [Dr. Kelly Rossa Sungkono]
 
 ---
 
