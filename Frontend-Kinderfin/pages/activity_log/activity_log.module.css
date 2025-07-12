@@ -1,0 +1,45 @@
+.container {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .center_button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    overflow-x: auto;
+    display: block;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    padding: 12px;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 1px solid #ddd;
+    max-width: 200px;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }

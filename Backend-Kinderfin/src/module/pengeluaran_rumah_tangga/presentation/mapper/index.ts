@@ -1,0 +1,1 @@
+export * from "./rumah-tangga.mapper";

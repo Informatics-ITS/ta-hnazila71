@@ -1,0 +1,99 @@
+.page_wrapper {
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.table_container {
+  overflow-x: auto;
+  width: 100%;
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa; /* Menambahkan background abu-abu */
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px;
+  text-align: center;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.table td {
+  padding: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.center_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.action-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer {
+  font-size: 0.75rem;
+  color: var(--secondary-text-color);
+  margin-top: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer span {
+  color: var(--secondary-color);
+}
+
+.center-text {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.formGlobal :global(input),
+.formGlobal :global(select),
+.formGlobal :global(textarea),
+.formGlobal :global(button) {
+  font-family: "Poppins", sans-serif;
+}
+
+.formGlobal :global(label),
+.formGlobal :global(h1),
+.formGlobal :global(h2),
+.formGlobal :global(h3),
+.formGlobal :global(h4) {
+  font-family: "Poppins", sans-serif;
+}

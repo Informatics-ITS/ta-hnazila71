@@ -1,0 +1,45 @@
+{
+  "name": "mantine-minimal-next-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mantine/core": "^7.17.3",
+    "@mantine/dates": "^7.12.2",
+    "@mantine/form": "^7.12.2",
+    "@mantine/hooks": "^7.17.3",
+    "@mantine/notifications": "^7.13.2",
+    "@mui/material": "^6.0.2",
+    "@mui/x-data-grid": "^7.16.0",
+    "@tabler/icons-react": "^3.14.0",
+    "axios": "^1.8.4",
+    "dayjs": "^1.11.13",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-datepicker": "^7.4.0",
+    "react-dom": "^19.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "yarn@4.9.1"
+}

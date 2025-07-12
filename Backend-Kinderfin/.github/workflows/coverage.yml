@@ -1,0 +1,37 @@
+name: Code Coverage
+on: [push]
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+
+    - name: Set Up Env File
+      run: |
+        touch .env
+        echo SERVER_PORT=${{ secrets.SERVER_PORT }} >> .env
+        echo APP_ENV=${{ secrets.APP_ENV }} >> .env
+        echo DB_HOST=${{ secrets.DB_HOST }} >> .env
+        echo DB_PORT=${{ secrets.DB_PORT }} >> .env
+        echo DB_USER=${{ secrets.DB_USER }} >> .env
+        echo DB_PASS=${{ secrets.DB_PASS }} >> .env
+        echo DB_NAME=${{ secrets.DB_NAME }} >> .env
+        echo JWT_SECRET_KEY=${{ secrets.JWT_SECRET_KEY }} >> .env
+        echo JWT_ISSUER=${{ secrets.JWT_ISSUER }} >> .env
+        echo IMAGEKIT_PUBLIC_KEY=${{ secrets.IMAGEKIT_PUBLIC_KEY }} >> .env
+        echo IMAGEKIT_PRIVATE_KEY=${{ secrets.IMAGEKIT_PRIVATE_KEY }} >> .env
+        echo IMAGEKIT_URL_ENDPOINT=${{ secrets.IMAGEKIT_URL_ENDPOINT }} >> .env
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run Tests
+      run: |
+        npm test
+        rm .env

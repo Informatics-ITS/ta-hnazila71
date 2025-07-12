@@ -1,0 +1,10 @@
+@import '../styles/colors.css';
+@import '../styles/fonts.css';
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    min-height: 100%;
+    width: 100%;
+}

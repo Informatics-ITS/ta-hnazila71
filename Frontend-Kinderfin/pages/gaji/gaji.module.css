@@ -1,0 +1,64 @@
+.gaji {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.gaji__bendahara {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gaji h1 {
+    font-size: 2rem;
+    margin: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.gaji h2 {
+    font-size: 1.4rem !important;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin: 1rem;
+}
+
+.accordion {
+    min-width: 75vw;
+    background-color: var(--background-color);
+    font-family: "Poppins", sans-serif;
+    margin: 1rem;
+}
+
+.accordion span {
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.chip__span span {
+    color: var(--background-color);
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.riwayat__pembayaran {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.riwayat__pembayaran__guru {
+    width: 50vw;
+}

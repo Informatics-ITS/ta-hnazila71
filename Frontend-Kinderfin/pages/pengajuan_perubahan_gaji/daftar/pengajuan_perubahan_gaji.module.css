@@ -1,0 +1,77 @@
+.page_wrapper {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .centered {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .table td {
+    text-align: center;
+    padding: 12px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .center_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  /* pengajuan_perubahan_gaji.module.css */
+.page_wrapper {
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form_card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.center_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}

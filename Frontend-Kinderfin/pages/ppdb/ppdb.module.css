@@ -1,0 +1,61 @@
+.ppdb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.ppdb h1 {
+    font-size: 2rem;
+    margin: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.ppdb h2 {
+    font-size: 1rem;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.ppdb__chip {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: var(--background-color);
+}
+
+.accordion {
+    min-width: 50vw;
+    background-color: var(--background-color);
+    font-family: "Poppins", sans-serif;
+    margin: 1rem;
+}
+
+.accordion span {
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.table_body {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.chip__span span {
+    color: var(--background-color);
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}

@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--background-color);
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    padding: 0 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--secondary-text-color);
+}
+
+.footer span {
+    color: var(--secondary-color);
+}

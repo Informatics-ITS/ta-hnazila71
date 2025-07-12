@@ -1,0 +1,114 @@
+.register_container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .register_image {
+    flex: 1;
+    background-color: #F37F37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register_image img {
+    width: 60%;
+  }
+  
+  .register_form {
+    flex: 1;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .register_form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .register_form p {
+    margin-bottom: 1.5rem;
+  }
+
+  .form_paper {
+    margin-bottom: 5rem;
+  }
+  .welcome_text {
+    padding-top: 20rem; 
+  }
+  
+  .form_title {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  
+  .navigation_buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left_buttons {
+    text-align: left;
+  }
+  
+  .back_button {
+    background-color: #B3BCCD;
+    color: #FFFFFF;
+  }
+  
+  .right_buttons {
+    text-align: right;
+  }
+  
+  .next_button {
+    background-color: #F37F37;
+    color: #FFFFFF;
+  }
+  
+  .login_text {
+    color: #F37F37;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .register_image img {
+      width: 80%;
+    }
+  
+    .register_form {
+      padding: 1rem;
+    }
+  
+    .register_form h2 {
+      font-size: 1rem;
+    }
+  
+    .register_form p {
+      font-size: 0.9rem;
+    }
+  
+    .form_title {
+      font-size: 1rem;
+      padding-top: 2%;
+    }
+
+     .navigation_buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .left_buttons, .right_buttons {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  }
+  

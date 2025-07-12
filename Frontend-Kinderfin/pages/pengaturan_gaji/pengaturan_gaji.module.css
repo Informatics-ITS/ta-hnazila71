@@ -1,0 +1,51 @@
+.page_wrapper {
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #f8f9fa; /* Latar belakang abu-abu */
+  border: 1px solid #dee2e6;
+  box-shadow: var(--mantine-shadow-sm);
+}
+
+.title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.sectionWrapper {
+  margin-top: 2rem;
+  border-top: 1px solid #e9ecef;
+  padding-top: 1.5rem;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.textInput {
+  flex-grow: 1;
+}
+
+.deleteButton {
+  margin-bottom: 4px;
+}
+
+.modalButtonGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}

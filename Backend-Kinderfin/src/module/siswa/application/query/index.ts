@@ -1,0 +1,2 @@
+export *  from "./siswa.query";
+

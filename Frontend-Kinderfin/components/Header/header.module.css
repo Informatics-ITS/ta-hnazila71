@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--background-color);
+    width: 100%;
+    margin: 0;
+    height: 3rem;
+    padding: 0 2rem;
+}
+
+.header img {
+    width: 9rem;
+    margin: 0;
+}
+
+.user__avatar {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.user__avatar span {
+    margin-right: 1rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}

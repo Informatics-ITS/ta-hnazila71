@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.salary__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.salary__detail h1, .salary__detail h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.salary__detail h2 {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.salary__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.salary__info p {
+  margin: 0.3rem 0;
+}
+
+.salary__scroll_wrapper {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+
+.salary__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.salary__table th {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.salary__table td {
+  text-align: center;
+  padding: 12px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.salary__table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.centered {
+  text-align: center;
+}
+
+.kembali__button {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.late__warning {
+  color: red;
+  font-weight: bold;
+}
+
+
+.manual__input__modal, 
+.bonus__modal {
+  font-family: "Poppins", sans-serif;
+}
+
+.manual__input__modal b, 
+.bonus__modal b {
+  color: var(--primary-color);
+}
+
+
+.custom-modal .mantine-Modal-modal {
+  margin: 40px;
+}
+
+.custom-modal .modal-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.textinput-wrapper input {
+  border: 1px solid #ced4da;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page_wrapper {
+  padding: 2rem;
+  margin-top: 2rem; 
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif; 
+}
