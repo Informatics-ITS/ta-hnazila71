@@ -9,13 +9,15 @@
 ---
 
 ## 📺 Demo Aplikasi
-*Video demo dapat disematkan di sini jika sudah tersedia.*
+
+[![Video Demo](https://img.youtube.com/vi/TPoUJPFR684/maxresdefault.jpg)](https://youtu.be/TPoUJPFR684)
 
 ---
 
 ## 🛠 Panduan Instalasi & Menjalankan Software
 
 ### Prasyarat
+
 - **Node.js**: Versi `v18` atau yang lebih baru.
 - **Yarn**: Untuk manajemen paket di frontend.
 - **Database**: PostgreSQL.
@@ -24,44 +26,52 @@
 
 1.  **Clone Repository**
     ```bash
-    git clone [https://github.com/Informatics-ITS/ta-hnazila71.git](https://github.com/Informatics-ITS/ta-hnazila71.git)
+    git clone https://github.com/Informatics-ITS/ta-hnazila71.git
     cd ta-hnazila71
     ```
+2.  **Konfigurasi Lingkungan (.env)**
+    - **Backend**: Masuk ke folder `Backend-Kinderfin`, salin `.env.example` menjadi `.env`, lalu isi:
+    ```env
+    SERVER_PORT=9001
+    APP_ENV=development
 
-2.  **Instalasi Dependensi Backend**
+    DB_HOST=
+    DB_PORT=
+    DB_USER=
+    DB_PASS=
+    DB_NAME=
+
+    JWT_SECRET_KEY=
+    JWT_ISSUER=
+    IMAGEKIT_PUBLIC_KEY=
+    IMAGEKIT_PRIVATE_KEY=
+    IMAGEKIT_URL_ENDPOINT=
+    ```
+    - **Frontend**: Masuk ke folder `Frontend-Kinderfin`, salin `.env.example` menjadi `.env`, lalu isi:
+    ```env
+    NEXT_PUBLIC_API_URL=
+    NEXT_PUBLIC_API_VERSION=v1
+    ```
+    - **Isikan variabel yang kosong** (dapat hubungi saya untuk mendapatkan konfigurasi yang diperlukan).
+3.  **Setup & Jalankan Backend**
     ```bash
     cd Backend-Kinderfin
     npm install
+    npm run build
+    npm start
     ```
-
-3.  **Instalasi Dependensi Frontend**
+    > **Catatan**: Jalankan perintah `npm run build` beberapa kali untuk mengirimkan seeder data yang tersedia ke database.
+4.  **Setup & Jalankan Frontend**
+    - Buka terminal **baru**, lalu jalankan:
     ```bash
-    cd ../Frontend-Kinderfin
-    yarn install
+    cd Frontend-Kinderfin
+    npm install -g yarn@berry
+    yarn
+    npm run dev
     ```
-
-4.  **Konfigurasi Lingkungan (.env)**
-    - Masuk ke folder `Backend-Kinderfin`.
-    - Salin atau ubah nama file `.env.example` menjadi `.env`.
-    - Isi variabel lingkungan yang diperlukan, terutama untuk koneksi database PostgreSQL.
-
-5.  **Migrasi Database**
-    - Pastikan Anda berada di dalam folder `Backend-Kinderfin`.
-    ```bash
-    npm run migrate
-    ```
-
-6.  **Jalankan Aplikasi**
-    - **Backend**: Buka satu terminal, masuk ke folder `Backend-Kinderfin`, lalu jalankan:
-      ```bash
-      npm run dev
-      ```
-    - **Frontend**: Buka terminal **baru**, masuk ke folder `Frontend-Kinderfin`, lalu jalankan:
-      ```bash
-      yarn dev
-      ```
-
-7.  Buka browser dan kunjungi: `http://localhost:3000` (atau port lain yang ditampilkan oleh terminal frontend).
+5.  **Akses Aplikasi**
+    - **Frontend**: Buka browser dan kunjungi: `http://localhost:3001`
+    - **Backend**: API tersedia di: `http://localhost:3000`
 
 ---
 
