@@ -61,7 +61,61 @@
     npm run build
     npm start
     ```
-    > **Catatan**: Jalankan perintah `npm run build` beberapa kali untuk mengirimkan seeder data yang tersedia ke database.
+    > **Catatan**:
+    - Jalankan perintah `npm run build` beberapa kali untuk mengirimkan seeder data yang tersedia ke database.
+      
+    ### Panduan Konfigurasi CORS: Backend
+    
+    Dokumen ini menjelaskan cara mengubah konfigurasi CORS di file `Backend-Kinderfin/src/server.ts` untuk beralih antara lingkungan pengembangan (lokal) dan produksi (Vercel).
+    
+    ---
+    
+    #### **File Path**
+    * `Backend-Kinderfin/src/server.ts`
+    
+    ---
+    
+    #### **Konfigurasi yang Diperlukan**
+    
+    Ubah objek `corsOptions` di dalam file tersebut sesuai dengan lingkungan yang Anda tuju.
+    
+    #### **1. Untuk Lokal**
+    Pastikan hanya `origin` untuk `localhost` yang aktif.
+    
+    ``` typescript
+    // ... kode lainnya
+    const corsOptions = {
+        sesuaikan dengan deploy frontend // origin: '[https://fe-kinderfin-new2-oinx.vercel.app](https://fe-kinderfin-new2-oinx.vercel.app)', 
+        origin: 'http://localhost:3001', 
+        credentials: true,
+    };
+    // ... kode lainnya
+    ```
+    ### Panduan Konfigurasi CORS: Frontend
+    
+    Dokumen ini menjelaskan cara mengubah konfigurasi CORS di file `Frontend-Kinderfin/utils/index.tsx` untuk beralih antara lingkungan pengembangan (lokal) dan produksi (Vercel).
+    
+    ---
+    
+    #### **File Path**
+    * `Frontend-Kinderfin/utils/index.tsx`
+    
+    ---
+    
+    #### **Konfigurasi yang Diperlukan**
+    
+    Ubah objek `corsOptions` di dalam file tersebut sesuai dengan lingkungan yang Anda tuju.
+    
+    #### **1. Untuk Lokal**
+    Pastikan hanya `origin` untuk `localhost` yang aktif.
+    
+    ``` typescript
+    public static backend_base = 'https://backend-kinderfin.onrender.com/';
+     public static backend_base = 'http://localhost:3000/';
+    ```
+    
+    
+
 4.  **Setup & Jalankan Frontend**
     - Buka terminal **baru**, lalu jalankan:
     ```bash
@@ -78,7 +132,8 @@
 
 ## 📚 Dokumentasi Tambahan
 
-- Anda dapat menambahkan link ke dokumentasi API, diagram arsitektur, atau skema basis data di sini.
+- Backend ` https://backend-kinderfin.onrender.com/`
+- Frontend `https://fe-kinderfin-new2-oinx.vercel.app`
 
 ---
 
