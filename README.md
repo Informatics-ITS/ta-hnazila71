@@ -41,7 +41,7 @@
     DB_PASS=
     DB_NAME=
 
-    JWT_SECRET_KEY=
+    JWT_SECRET_KEY=p
     JWT_ISSUER=
     IMAGEKIT_PUBLIC_KEY=
     IMAGEKIT_PRIVATE_KEY=
@@ -52,6 +52,7 @@
     NEXT_PUBLIC_API_URL=
     NEXT_PUBLIC_API_VERSION=v1
     ```
+    - **Untuk database lokal**: Buat database PostgreSQL terlebih dahulu, kemudian sesuaikan konfigurasi DB di file `.env`
     - **Isikan variabel yang kosong** (dapat hubungi saya untuk mendapatkan konfigurasi yang diperlukan).
 3.  **Setup & Jalankan Backend**
     ```bash
@@ -92,7 +93,6 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 ---
 
 ## ⁉️ Pertanyaan?
-
 Hubungi:
 - **Penulis**: 5025211225@student.its.ac.id
 - **Pembimbing Utama**: adhatus@its.ac.id
