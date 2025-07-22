@@ -32,7 +32,7 @@
 2.  **Konfigurasi Lingkungan (.env)**
     - **Backend**: Masuk ke folder `Backend-Kinderfin`, salin `.env.example` menjadi `.env`, lalu isi:
     ```env
-    SERVER_PORT=9001
+    SERVER_PORT=3000
     APP_ENV=development
 
     DB_HOST=
